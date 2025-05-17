@@ -1,0 +1,20 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/kaveeshaSanjana/express#readme",
+  "bugs": {
+    "url": "https://github.com/kaveeshaSanjana/express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaveeshaSanjana/express.git"
+  },
+  "license": "ISC",
+  "author": "kaveesha_sanjana",
+  "type": "commonjs",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
