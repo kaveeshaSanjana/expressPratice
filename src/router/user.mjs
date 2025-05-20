@@ -32,6 +32,7 @@ userRouter.put('/update/:id', (req, res) => {
     const userIndex = userDetails.findIndex(user => user.id === Number(userId));
     if (userIndex !== -1) {
         userDetails[userIndex] = { ...userDetails[userIndex], ...req.body };
+        
         res.status(200).json({ message: "User updated successfully", user: userDetails[userIndex] });
     } else {
         res.status(404).json({ message: "User not found" });
